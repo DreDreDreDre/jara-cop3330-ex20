@@ -76,5 +76,7 @@ public class App
             total = orderAmount;
         }
         System.out.printf("The total is $%.2f.\n", total);
+
+        sc.close();
     }
 }
